@@ -189,4 +189,4 @@ bot.on('message', message => {
         console.log("Commande Renchannel demandée !");
     }
 
-})
+});
