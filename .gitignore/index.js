@@ -187,6 +187,6 @@ bot.on('message', message => {
               .setName("🔥 Annonces 🔥 👥 "+`${message.guild.members.filter(m => m.presence.status !== 'offline').size} / ${message.guild.memberCount}`+"");
         }, 1000); // intervalle entre les envoi de packet
         console.log("Commande Renchannel demandée !");
-    }
+    };
 
 });
