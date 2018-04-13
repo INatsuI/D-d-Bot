@@ -165,15 +165,6 @@ bot.on('message', message => {
         
         }
 
-
-
-        if(message.content === prefix + 'renchannel'){
-            var interval = setInterval (function (){
-                  message.guild.channels.find('id',"416298251512315935")
-                  .setName("🔥 Annonces 🔥 👥 "+`${message.guild.members.filter(m => m.presence.status !== 'offline').size} / ${message.guild.memberCount}`+"");
-            }, 1000); // intervalle entre les envoi de packet
-            console.log("Commande Renchannel demandée !");
-        }
         
         if (message.content === prefix + 'Build'){
             message.reply ('Tu vien de recevoir le formulaire avec tout les conditions !');
